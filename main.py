@@ -9,5 +9,3 @@ def find_anagrams(word, anagram):
     if(sorted(word)!= sorted(anagram)):
         return False
     return True
-
-print(find_anagrams("hello", "check"))
